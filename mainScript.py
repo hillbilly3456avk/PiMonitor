@@ -104,7 +104,7 @@ text=msg.as_string()
 # Send the message via our SMTP server
 s = smtplib.SMTP('mail.gmx.net', 587)
 s.starttls()
-pwd = "%L6\\\\9])a}1S"
+pwd = ""
 s.login("avonk@gmx.ch", pwd)
 s.sendmail(sender, address_book, text)
 s.quit()        
